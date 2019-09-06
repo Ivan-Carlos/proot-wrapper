@@ -11,4 +11,4 @@ Chroot no Termux para Debian armhf
 - $  debootstrap --arch=armhf --variant=minbase stable stable http://ftp.debian.org/debian
 - $  mkdir -p stable/media/sdcard
 - $  sh proot-wrapper.sh
-! [image_1] /image/
+- ![image_1](images/imagem.png)
