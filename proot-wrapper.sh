@@ -9,8 +9,8 @@ done
 if [ -d /sdcard ] && [ -d $PREFIX/../home/stable/media/sdcard ]; then
 	ARGS="$ARGS -b /sdcard:/media/sdcard"
 fi
-ARGS="$ARGS -b $PREFIX/../home/:/root"
-ARGS="$ARGS --cwd=/"
+ARGS="$ARGS -b $PREFIX/../home/:/home"
+ARGS="$ARGS --cwd=/root"
 ARGS="$ARGS /usr/bin/env -i"
 ARGS="$ARGS -i HOME=/root"
 ARGS="$ARGS TERM=$TERM"
