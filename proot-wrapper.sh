@@ -19,7 +19,7 @@ ARGS="$ARGS PATH=/bin:/usr/bin:/sbin:/usr/sbin:/bin"
 PROGRAM=/bin/bash
 if [ -z "$1" ];then
 	ARGS="$ARGS $PROGRAM --login"
-	exec proot $ARGS
+	exec proot $ARGS | cat ~/stable/etc/motd
 else
 	ARGS="$ARGS --cwd=."
 	exec proot $ARGS sh -c "$*"
