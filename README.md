@@ -1,4 +1,4 @@
-# proot-wrapper
+# Proot-wrapper
 Chroot no Termux para Debian armhf
 
 - Baixe o aplicativo Termux no Google play store
